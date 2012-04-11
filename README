@@ -1,0 +1,3 @@
+Custom script for upload images and create thumbnails in grayscale or color mode.
+
+require rmagick gem
