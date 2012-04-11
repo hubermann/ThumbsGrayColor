@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @image.title %>
+</p>
+
+<p>
+  <b>Filename:</b>
+  <img src="/data/800-<%= @image.filename %>" alt="" width="200" />
+  <img src="/data/tn-s-c-150-<%= @image.filename %>" alt="" width="150" />
+  <img src="/data/tn-s-g-150-<%= @image.filename %>" alt="" width="150" />
+</p>
+<p><%= @image.filename %></p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>

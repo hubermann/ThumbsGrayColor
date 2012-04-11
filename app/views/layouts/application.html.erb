@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thumbpropio</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<ul id="mainmenu">
+<li><a href="/gallerie">Gallerie</a></li>
+<li><a href="/">list</a></li>
+<li><a href="/images/new">New image</a></li>
+</ul>
+<%= yield %>
+
+</body>
+</html>
