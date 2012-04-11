@@ -1,3 +1,7 @@
 Custom script for upload images and create thumbnails in grayscale or color mode.
 
 require rmagick gem
+
+supports square or proportional thumbnails
+
+this example is setting with a 800px for big image and two square thumbnails of 150px (one color and one grayscale)
